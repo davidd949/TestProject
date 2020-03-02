@@ -20,7 +20,7 @@ class Article extends Model
     // Laravel provides automatic protection that prevents accidental updates/create
     protected $fillable = ['title', 'excerpt', 'body'];
 
-    // Get get user (author) pertaining to the article. s
+    // Get get user (author) pertaining to the article. SAS!!
     public function user() {
         // NOTE: the function name 'user' plays an important role how laravel
         // automatically looks up the Article's foreign key. Ex: 'user' will trigger
