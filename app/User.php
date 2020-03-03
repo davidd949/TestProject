@@ -11,7 +11,7 @@ class User extends Authenticatable
     use Notifiable;
 
     /**
-     * The attributes that are mass assignable. BEEWP BEPPEP
+     * The attributes that are mass assignable. PC TESTINGSSS
      *
      * @var array
      */
